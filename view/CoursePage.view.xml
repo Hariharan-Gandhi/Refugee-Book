@@ -1,0 +1,12 @@
+<core:View controllerName="Refugee_Book.view.CoursePage" xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page enableScrolling="false" navButtonPress="onNavBack" showNavButton="true" title="Courses Recommended">
+		<Toolbar width="50%" float="right">
+			<SearchField search="onSearch"/>
+		</Toolbar>
+		<TileContainer id="container" tileDelete="handleTileDelete" tiles="{/TileCollection}">
+			<StandardTile  class="tile-css" icon="sap-icon://{icon}" info="{info}" infoState="{infoState}" number="{number}" numberUnit="{numberUnit}"
+				press="specificCourse" title="{title}" type="{type}"/>
+		</TileContainer>
+	</Page>
+</core:View>

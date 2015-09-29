@@ -1,0 +1,23 @@
+<core:View controllerName="Refugee_Book.view.Congratulations" xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page title="Congratulations"  navButtonPress="onNavBack" showNavButton="true">
+		<content>
+			<html:h2>Congratulations, Ali!</html:h2>
+			<html:h3>You have a job.</html:h3>
+			
+			<Image src="http://www.bartolottafireworks.com/wp-content/uploads/2012/03/fireworks016_slide.jpg" width="100%"/>
+		</content>
+		
+		<html:style>
+		      h2 {
+		         font-size:30px;
+		         text-align:center;
+		      }
+		      
+		      h3 {
+		         font-size:24px;
+		         text-align:center;
+		      }
+		</html:style>
+	</Page>
+</core:View>

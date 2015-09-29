@@ -1,0 +1,65 @@
+<core:View controllerName="Refugee_Book.view.CourseDetails" xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	
+	
+	<Page title="Thermo Dynamics"  navButtonPress="onNavBack" showNavButton="true">
+
+		<content>
+			<l:Grid binding="{/VendorCollection}" class="sapUiSmallMarginTop" defaultSpan="L6 M6 S10" hSpacing="2">
+				<l:content>
+					<Image src="{0/ContactPicUrl}" width="100%">
+						<layoutData>
+							<l:GridData linebreakL="true" linebreakM="true" linebreakS="true" span="L3 M3 S8"/>
+						</layoutData>
+					</Image>
+					<VBox>
+						<ObjectHeader title="{0/CourseTitle}">
+							<attributes>
+								<ObjectAttribute text="{0/Description}"/>
+							</attributes>
+						</ObjectHeader>
+						<Button class="margin-left" ariaDescribedBy="acceptButtonDescription genericButtonDescription" press="openCourse" text="Go to course" type="Accept">
+							<layoutData>
+								<FlexItemData growFactor="1"/>
+							</layoutData>
+						</Button>
+					</VBox>
+					<Image src="{1/ContactPicUrl}" width="100%">
+						<layoutData>
+							<l:GridData linebreakL="true" linebreakM="true" linebreakS="true" span="L3 M3 S8"/>
+						</layoutData>
+					</Image>
+					<VBox>
+						<ObjectHeader title="{1/CourseTitle}">
+							<attributes>
+								<ObjectAttribute text="{1/Description}"/>
+							</attributes>
+						</ObjectHeader>
+						<Button  class="margin-left" ariaDescribedBy="acceptButtonDescription genericButtonDescription" press="openCourse" text="Go to course" type="Accept">
+							<layoutData>
+								<FlexItemData growFactor="1"/>
+							</layoutData>
+						</Button>
+					</VBox>
+					<Image src="{2/ContactPicUrl}" width="100%">
+						<layoutData>
+							<l:GridData linebreakL="true" linebreakM="true" linebreakS="true" span="L3 M3 S8"/>
+						</layoutData>
+					</Image>
+					<VBox>
+						<ObjectHeader title="{2/CourseTitle}">
+							<attributes>
+								<ObjectAttribute text="{2/Description}"/>
+							</attributes>
+						</ObjectHeader>
+						<Button class="margin-left" ariaDescribedBy="acceptButtonDescription genericButtonDescription" press="openCourse" text="Go to course" type="Accept">
+							<layoutData>
+								<FlexItemData growFactor="1"/>
+							</layoutData>
+						</Button>
+					</VBox>
+				</l:content>
+			</l:Grid>
+		</content>
+	</Page>
+</core:View>

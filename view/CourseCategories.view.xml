@@ -1,0 +1,39 @@
+<core:View controllerName="Refugee_Book.view.CourseCategories" xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page title="Course Categories"  navButtonPress="onNavBack" showNavButton="true">
+		<subHeader>
+			<Toolbar>
+				<SearchField
+					liveChange="onSearch"
+					width="100%" />
+			</Toolbar>
+		</subHeader>
+		<content>
+			<List
+				id="idList"
+				items="{/CourseCatergories}"
+				selectionChange="onSelectionChange"
+				
+				includeItemInSelection="true"
+				>
+				<infoToolbar>
+					<Toolbar
+						visible="false"
+						id="idInfoToolbar" >
+						<Label id="idFilterLabel" />
+					</Toolbar>
+				</infoToolbar>
+				<items>
+					<StandardListItem
+						title="{title}"
+						description="{info}"
+						type="Active"
+						press="onCourseClick"
+						icon="sap-icon://education"
+						iconDensityAware="false"
+						iconInset="false"/>
+				</items>
+			</List>
+		</content>
+	</Page>
+</core:View>

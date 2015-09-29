@@ -1,0 +1,23 @@
+<core:View controllerName="Refugee_Book.view.Master" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:table="sap.ui.table"
+	xmlns="sap.m">
+	<Page id="homePage" title="Refugee Book" class="bg">
+		<content>
+			<Image class="img" densityAware="false" src="./img/refugee_book.png" width="30%">
+				<layoutData>
+					<FlexItemData growFactor="1"/>
+				</layoutData>
+			</Image>
+			
+			<TileContainer height="50%" id="container" tileDelete="handleTileDelete">
+				<StandardTile class="tile-css" icon="sap-icon://account" id="myprofile" info="View/update profile" infoState="{infoState}" number="{number}" numberUnit="{numberUnit}"
+					press="main_page_nav" title="My Profile" type="{type}" />
+				<StandardTile class="tile-css" icon="sap-icon://education" id="courses" info="Browse through courses" infoState="{infoState}" number="{number}" numberUnit="{numberUnit}"
+					press="main_page_nav" title="Courses" type="{type}"/>
+				<StandardTile class="tile-css" icon="sap-icon://customer-financial-fact-sheet" id="jobmarket" info="Get your Job here" infoState="{infoState}" number="{number}" numberUnit="{numberUnit}"
+					press="main_page_nav" title="Job Market Place" type="{type}"/>
+			
+			</TileContainer>
+		</content>
+		<footer></footer>
+	</Page>
+</core:View>

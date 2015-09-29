@@ -1,0 +1,52 @@
+<core:View controllerName="Refugee_Book.view.JobPage" xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page title="Job Page" navButtonPress="onNavBack" showNavButton="true" >
+		<content>
+			<l:Grid class="sapUiSmallMarginTop" defaultSpan="L12 M12 S12" hSpacing="2">
+			<VBox>
+				<html:h2 class="companyName">Daimler AG</html:h2>
+				<html:h3 class="jobTitle">Technical Engineer</html:h3>
+			</VBox>
+			<html:h4>Suggested Certificates</html:h4>
+			<l:Grid binding="{/JobInfosCollection}" class="sapUiSmallMarginTop" defaultSpan="L6 M6 S10" hSpacing="2">
+				<l:content>
+					<Image src="{0/ContactPicUrl}" width="100%">
+						<layoutData>
+							<l:GridData linebreakL="true" linebreakM="true" linebreakS="true" span="L3 M3 S8"/>
+						</layoutData>
+					</Image>
+					<VBox>
+						<ObjectHeader title="{0/CertificateTitle}">
+							<attributes>
+								<ObjectAttribute text="{0/Description}"/>
+							</attributes>
+						</ObjectHeader>
+						<Button icon="sap-icon://activity-individual" class="margin-left" press="onPress"  type="Accept" text="See certificate"/>
+					</VBox>
+					<Image src="{1/ContactPicUrl}" width="100%">
+						<layoutData>
+							<l:GridData linebreakL="true" linebreakM="true" linebreakS="true" span="L3 M3 S8"/>
+						</layoutData>
+					</Image>
+					<VBox>
+						<ObjectHeader title="{1/CertificateTitle}">
+							<attributes>
+								<ObjectAttribute text="{1/Description}"/>
+							</attributes>
+						</ObjectHeader>
+						<l:HorizontalLayout>
+							<Button icon="sap-icon://education" class="margin-left" press="onPress"  type="Accept" text="Enroll course"/>
+						</l:HorizontalLayout>
+					</VBox>
+				</l:content>
+			</l:Grid>
+			<html:h4>Job Description</html:h4>
+			<l:VerticalLayout>
+				<Text class="padding-Left" text="Work on a geographically dispersed team of highly skilled engineers with the following responsibilities: Set up, operation and regular updates of SAP technology based cloud system landscapes for development, test and production purposes, achieving ambitious SLA requirements Onboard new customers, monitor and troubleshoot the cloud infrastructure ensuring high availability and business continuity. Respond to customer incidents to resolve infrastructure problems in a timely manner. Liaison with development and customer support to expedite problem resolution Creating and running scripting features including integration, cloud automation, monitoring, supportability, backup/recovery and customer order provisioning as part of a DevOps team Definition of technical operational concepts and guidelines, coordination within international teams Support continuous build infrastructure (Jenkins, Bamboo) and SCM (Git, Gerrit), set up and maintain build jobs (Jenkins) and code scans (Sonar, Fortify) The candidate is expected to be available for on-call duties."/>
+				<Button  icon="sap-icon://sys-enter" class="margin-left" press="getJob" text="Apply" type="Accept"/>
+			</l:VerticalLayout>
+			
+		</l:Grid>
+		</content>
+	</Page>
+</core:View>

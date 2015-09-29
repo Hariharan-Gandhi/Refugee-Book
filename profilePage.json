@@ -1,0 +1,48 @@
+{
+	"ProfileInfosCollection": [
+		{
+			"ContactPicUrl": "http://images.wisegeek.com/man-in-blue-suit-working-on-wheel-of-car.jpg",
+			"Name": "Ali Mohammed",
+			"Job": "Mechanical Engineer"
+		}
+	],
+	"ProfileCertificatesCollection": [
+		{
+			"ContactPicUrl": "http://static.giantbomb.com/uploads/scale_small/1/15744/537048-wheel.jpg",
+			"CertificateTitle": "Car Engineering-Wheels",
+			"Description": "2 weeks",
+			"Points":"100p"
+		}
+	],
+	"ExperienceCollection": [
+		{
+			"Date": "2010 - 2013",
+			"Experience": "Engineer at Hardisch's garage"
+		},
+		{
+			"Date": "2008 - 2010",
+			"Experience": "Worker at Hardisch's garage"
+		},
+		{
+			"Date": "2005 - 2008",
+			"Experience": "Job training at Hardisch's garage"
+		}
+	],
+	"RecommedationInfosCollection" : [
+		{
+			"ContactPicUrl": "http://www.windfireauto.com/wp-content/uploads/2014/08/SA21-mercedes-benz-logo1.jpg",
+			"CompanyName": "Daimler AG",
+			"CompanyMessage":"Are you a mechanical engineer? Join our team!"
+		},
+		{
+			"ContactPicUrl": "http://www.brandsoftheworld.com/sites/default/files/styles/logo-original-577x577/public/112012/ford-go-further_0.png",
+			"CompanyName": "Ford Motor Company",
+			"CompanyMessage":"We are expanding our team! Mechanical engineers wanted."
+		},
+		{
+			"ContactPicUrl": "http://www.zeroto60times.com/blog/wp-content/uploads/2013/02/bmw-cars-logo-emblem.jpg",
+			"CompanyName": "BMW AG",
+			"CompanyMessage":"The job is waiting for you at BMW AG"
+	}	
+	]
+}

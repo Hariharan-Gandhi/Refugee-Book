@@ -1,0 +1,53 @@
+{
+	"CourseCatergories": [
+
+		{
+			"icon": "course-book",
+			"number": "C-id: 1",
+			"title": "Mathematics",
+			"info": "Available",
+			"status": "Not Taken",
+			"id": "1"
+    }, {
+			"icon": "course-book",
+			"number": "C-id: 2",
+			"title": "Law",
+			"info": "Completed",
+			"status": "Taken already",
+			"infoState": "Success",
+			"id": "2"
+    }, {
+			"icon": "course-book",
+			"number": "C-id: 3",
+			"title": "Business",
+			"info": "Completed",
+			"status": "Taken already",
+			"infoState": "Success",
+			"id": "3"
+    }, {
+			"icon": "course-book",
+			"number": "C-id: 4",
+			"title": "Chemistry",
+			"info": "Completed",
+			"status": "Taken already",
+			"infoState": "Success",
+			"id": "4"
+    }, {
+			"icon": "course-book",
+			"number": "C-id: 5",
+			"title": "Computer Science",
+			"info": "Completed",
+			"status": "Taken already",
+			"infoState": "Success",
+			"id": "5"
+    }, {
+			"icon": "course-book",
+			"number": "C-id: 6",
+			"title": "Medicine",
+			"info": "Completed",
+			"status": "Taken already",
+			"infoState": "Success",
+			"id": "6"
+    }
+	]
+}

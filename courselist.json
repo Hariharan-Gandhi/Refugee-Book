@@ -1,0 +1,58 @@
+{
+	"TileCollection": [
+
+		{
+			"icon": "course-book",
+			"number": "C-id: 301",
+			"title": "Executive Data Science",
+			"info": "Available",
+			"status": "Not Taken",
+			"id": "bg"
+    }, {
+			"icon": "course-book",
+			"number": "C-id: 302",
+			"title": "Thermo Dynamics",
+			"info": "Completed",
+			"status": "Taken already",
+			"infoState": "Success"
+    }, {
+			"icon": "course-book",
+			"number": "C-id: 303",
+			"title": "Fluid Mechanics",
+			"info": "Completed",
+			"status": "Taken already",
+			"infoState": "Success"
+    }, {
+			"icon": "course-book",
+			"number": "C-id: 304",
+			"title": "Fluid Mechanics",
+			"info": "Available",
+			"status": "Taken already"
+    }, {
+			"icon": "course-book",
+			"number": "C-id: 305",
+			"title": "Fluid Mechanics",
+			"info": "Available",
+			"status": "Taken already"
+    }, {
+			"icon": "course-book",
+			"number": "C-id: 306",
+			"title": "Fluid Mechanics",
+			"info": "Completed",
+			"status": "Taken already",
+			"infoState": "Success"
+    }, {
+			"icon": "course-book",
+			"number": "C-id: 307",
+			"title": "Fluid Mechanics",
+			"info": "Available",
+			"status": "Taken already"
+    }, {
+			"icon": "course-book",
+			"number": "C-id: 308",
+			"title": "Fluid Mechanics",
+			"info": "Available",
+			"status": "Taken already"
+    }
+	]
+}
