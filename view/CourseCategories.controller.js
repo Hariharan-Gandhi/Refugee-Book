@@ -33,8 +33,7 @@ sap.ui.controller("Refugee_Book.view.CourseCategories", {
 	},
 
 	onCourseClick: function(oevent) {
-		
-		var choosenCategory = oevent.getSource().getBindingContextPath().split("/").slice(-1)[0];
+		var choosenCategory = oevent.getSource().getBindingContext().getObject().id;
 		sap.ui.core.UIComponent.getRouterFor(this).navTo("CoursePage", {categoryId: choosenCategory});
 	}
 

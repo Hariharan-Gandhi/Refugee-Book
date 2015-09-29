@@ -4,9 +4,9 @@
 		<Toolbar width="50%" float="right">
 			<SearchField search="onSearch"/>
 		</Toolbar>
-		<TileContainer id="container" tileDelete="handleTileDelete" tiles="{/TileCollection}">
-			<StandardTile  class="tile-css" icon="sap-icon://{icon}" info="{info}" infoState="{infoState}" number="{number}" numberUnit="{numberUnit}"
-				press="specificCourse" title="{title}" type="{type}"/>
+		<TileContainer id="container" tileDelete="handleTileDelete" tiles="{/elements}">
+			<StandardTile  class="tile-css" icon="sap-icon://course-book" info="{shortDescription}" infoState="{infoState}" number="{id}" numberUnit="{numberUnit}"
+				press="specificCourse" title="{name}" type="{type}"/>
 		</TileContainer>
 	</Page>
 </core:View>

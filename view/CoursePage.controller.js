@@ -16,7 +16,7 @@ sap.ui.controller("Refugee_Book.view.CoursePage", {
 		var id = oEvent.getParameter("arguments").categoryId;
 		
 		var model = new sap.ui.model.json.JSONModel();
-		model.loadData("./Courses?category=" + id, false);
+		model.loadData("./Courses/Courses?category=" + id, false);
 		this.getView().setModel(model);
 		
 		// this.getView().bindElement({
